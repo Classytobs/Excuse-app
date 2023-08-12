@@ -15,7 +15,7 @@ const fetchExcuse = (excuse) => {
       <div className="flex items-center content-center justify-center p-8 text-4xl font-serif text-md">
         <h1>GENERATE AN EXCUSE</h1>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-y-4">
         <button className="bg-slate-500 hover:bg-slate-600 
         px-3 py-2 rounded-md"
         onClick={()=>fetchExcuse('party')}>Party</button>
